@@ -23,12 +23,14 @@ Install gems `bundle install`
 `rake db:migrate`
 
 * Database initialization
+Run `rake db:seed` for example data
 
 * How to run the test suite
 run `rspec`
 
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
+Execute rails server by running `rails s`
 
-* ...
+Products list is available in `http://localhost:3000/products.json`
+
+Stockrooms list is available in `http://localhost:3000/stockrooms.json`
