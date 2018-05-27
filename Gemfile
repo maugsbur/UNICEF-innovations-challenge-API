@@ -46,3 +46,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Cross-Origin Resource Sharing
 gem 'rack-cors', require: 'rack/cors'
+
+# Geospatial database
+gem 'activerecord-postgis-adapter'
+gem 'pg'

@@ -1,0 +1,2 @@
+class Stockroom < ApplicationRecord
+end
