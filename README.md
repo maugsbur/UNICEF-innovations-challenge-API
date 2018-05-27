@@ -14,15 +14,18 @@ Postgis
 Postgres
 
 * Configuration
-Update config/database.yml with your credentials
-In MacOS, add you system username to "username"
+Update config/database.yml with your credentials. In MacOS, add you system username to "username"
+
+Install gems `bundle install`
 
 * Database creation
-rake db:create
+`rake db:create`
+`rake db:migrate`
 
 * Database initialization
 
 * How to run the test suite
+run `rspec`
 
 * Services (job queues, cache servers, search engines, etc.)
 
