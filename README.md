@@ -31,6 +31,6 @@ run `rspec`
 * Deployment instructions
 Execute rails server by running `rails s`
 
-Products list is available in `http://localhost:3000/products.json`
+Products list is available in `http://localhost:3000/api/products.json`
 
-Stockrooms list is available in `http://localhost:3000/stockrooms.json`
+Stockrooms list is available in `http://localhost:3000/api/stockrooms.json`
